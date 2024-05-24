@@ -3,5 +3,5 @@
 age = 20
 name = "John"
 my_str = "Kindly be %s years old first" % age
-if age == 20:
-    print(my_str)
+mysecond_str = "Hello %s, you are %s years old. You can join our Night Club" % (name, age)
+for i in range(1, 20):
