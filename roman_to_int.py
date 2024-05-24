@@ -1,7 +1,7 @@
 #Convert Romans to Integers
 class Solution:
     def romanToInt(self, s: str) -> int:
-        roman = {
+        translations = {
             "I": 1,
             "V": 5,
             "X": 10,
