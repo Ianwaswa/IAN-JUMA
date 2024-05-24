@@ -1,7 +1,5 @@
 #f-string with expressions
-mangoes = 5
-apples = 3
-bananas = 12
-
-total_fruits = f"The total number of fruits is {mangoes + apples + bananas}"
-print(total_fruits)
+first_name = "John"
+second_name = "Doe"
+full_name = f"{first_name} {second_name}"
+print(full_name) # John Doe
