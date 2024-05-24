@@ -1,4 +1,4 @@
-name = "Alice"
-age = "18"
-greeting = f"Hello, {name}. You are {age} years old."
-print(greeting)
+car_name = "Volvo"
+car_mileage = "1000"
+response = f"I have a {car_name} car that has {car_mileage} miles on it."
+print(response)
