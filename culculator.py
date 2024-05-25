@@ -11,8 +11,7 @@ product = num1 * num2
 quotient = num1 / num2
 remainder = num1 % num2
 
-if operator == '+':
-    print("{} + {} = {}".format(num1, num2, sum))
+print("{} + {} = {}".format(num1, num2, sum))
 
 #If operator is -, subtract the two numbers and print the result based on difference
 #Print the result of the operation
