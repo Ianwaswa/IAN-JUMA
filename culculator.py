@@ -16,6 +16,7 @@ print("{} - {} = {}".format(num1, num2, difference))
 print("{} * {} = {}".format(num1, num2, product))
 print("{} / {} = {}".format(num1, num2, quotient))
 print("{} % {} = {}".format(num1, num2, remainder))
+print("{} ** {} = {}".format(num1, num2, num1 ** num2))
 
 #If operator is -, subtract the two numbers and print the result based on difference
 #Print the result of the operation
