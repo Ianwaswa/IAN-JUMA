@@ -1,5 +1,5 @@
 #Prompt users to enter numbers and the operators they want to use
-#Operators are +, -, *, /, and %
+#Operators are +, -, *, /, % and //
 num1,operator, num2 = input("Enter Calculation: ").split()
 #Convert all strings to integers
 num1 = int(num1)
