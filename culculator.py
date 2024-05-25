@@ -4,21 +4,15 @@ num1,operator, num2 = input("Enter Calculation: ").split()
 #Convert all strings to integers
 num1 = int(num1)
 num2 = int(num2)
-#If operator is +, add the two numbers and print the result based on sum
+#Operations to be performed
+sum = num1 + num2
+difference = num1 - num2
+product = num1 * num2
+quotient = num1 / num2
+remainder = num1 % num2
+
 if operator == '+':
-    print("{} {} {} = {}".format(num1, operator, num2, num1 + num2))
+    print("{} + {} = {}".format(num1, num2, sum))
 
 #If operator is -, subtract the two numbers and print the result based on difference
-elif operator == '-':
-    print("{} {} {} = {}".format(num1, operator, num2, num1 - num2))
-elif operator == '*':
-    print("{} {} {} = {}".format(num1, operator, num2, num1 * num2))
-elif operator == '/':
-    print("{} {} {} = {}".format(num1, operator, num2, num1 / num2))
-elif operator == '%':
-    print("{} {} {} = {}".format(num1, operator, num2, num1 % num2))
-elif operator == '//':
-    print("{} {} {} = {}".format(num1, operator, num2, num1 // num2))
-else:
-    print("Invalid operator")
 #Print the result of the operation
