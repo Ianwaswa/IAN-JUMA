@@ -1,7 +1,7 @@
 #Prompt users to enter numbers and the operators they want to use
 #Operators are +, -, *, /, %, ** and //
 num1, num2 = input("Enter Two Numbers: ").split()
-#Convert all strings to integers
+#Convert all string input to integers
 num1 = int(num1)
 num2 = int(num2)
 #Operations to be performed
