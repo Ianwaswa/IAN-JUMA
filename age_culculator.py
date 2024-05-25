@@ -16,3 +16,11 @@ elif operator == "/":
 
 elif operator == "%":
     print("{} % {} = {}".format(num1, num2, num1 % num2))
+
+elif operator == "**":
+    print("{} ** {} = {}".format(num1, num2, num1 ** num2))
+
+elif operator == "//":
+    print("{} // {} = {}".format(num1, num2, num1 // num2))
+else:
+    print("Invalid Operator")
