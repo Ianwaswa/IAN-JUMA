@@ -7,4 +7,4 @@ for weight in weights:
     total_weight += weight
     average_weight = total_weight / number_of_players
 print(f'The total weight of your rugby players is {total_weight}')
-print(f'The average weight for each player in your team is {average_weight}')
+print(f'The average weight for each player in your team is {average_weight} kg')
