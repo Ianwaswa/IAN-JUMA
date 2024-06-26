@@ -9,5 +9,5 @@ while not game_over:
         
     if score > 100:
         game_over = True
-        
+        break
     print("Game is still on!!!")
