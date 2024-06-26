@@ -9,4 +9,5 @@ while not game_over:
         
     if score > 100:
         game_over = True
-print("Game Over")
+        
+    print("Game is still on!!!")
