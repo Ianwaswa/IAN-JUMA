@@ -1,5 +1,4 @@
-def greet():
-    print("Hi There!")
-    print("Welcome aboard!")
+def greet(name, age):
+    print(f"Hello {name}, you are {age} years old")
     
 greet()  
